@@ -7,6 +7,7 @@ In the last few years, MP3 players have made it possible to take your whole musi
 
 
 MODULE - WISE DESCRIPTION:
+
 Pygame mixer library-
 This module contains classes for loading Sound objects and controlling playback. The mixer module is optional and depends on SDL_mixer.The mixer module has a limited number of channels for playback of sounds.All sound playback is mixed in background threads. When you begin to play a Sound object, it will return immediately while the sound continues to play. A single Sound object can also be actively played back multiple times.The mixer module must be initialized like other pygame modules, but it has some extra conditions.Pygame will default to reasonable values, but pygame cannot perform Sound resampling, so the mixer should be initialized to match the values of your audio resources.
 
