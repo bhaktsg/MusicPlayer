@@ -15,10 +15,15 @@ Mutagen is a Python module to handle audio metadata.It can read Xing headers to 
 
 
 TECHNOLOGY SELECTED AND TECHNOLOGY FEATURES USED:
+
   Tkinter- For implementing the Graphical User Interface (GUI) of the music player.
+  
   Pygame - mixer: For loading Sound objects and controlling playback.
+  
   Mixer functions
+  
   Mutagen
+  
   IDE used- PyCharm
   
   
